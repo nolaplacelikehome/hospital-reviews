@@ -13,7 +13,13 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      gridTemplateColumns: {
+        'mobileNav': 'repeat(3)' 
+      }
     },
+    colors: {
+      'trust-blue': '#6397d9'
+    }
   },
   plugins: [],
 };
