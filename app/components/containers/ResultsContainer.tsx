@@ -9,6 +9,7 @@ export default function ResultsContainer() {
 			<ResultsCard />
 			<ResultsCard />
 			<ResultsCard />
+			<div className="text-center">1 &nbsp; &nbsp; {">"}</div>
 		</div>
 	);
 }

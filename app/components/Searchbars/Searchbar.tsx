@@ -2,8 +2,8 @@
 
 export default function Searchbar() {
 	return (
-		<div className="container relative max-w-7xl mx-auto">
-			<div className="absolute w-full  px-6 sm:px-22 lg:px-72 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
+		<div className="container h-16 my-20 relative max-w-7xl mx-auto z-1">
+			<div className="z-1 absolute w-full px-6 sm:px-22 lg:px-72 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
 				<form>   
 					<label htmlFor="hospital-search" className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
 					<div className="relative">
