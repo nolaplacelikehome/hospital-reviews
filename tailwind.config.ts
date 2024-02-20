@@ -18,7 +18,8 @@ const config: Config = {
       }
     },
     colors: {
-      'trust-blue': '#6397d9'
+      'trust-blue': '#6397d9',
+      'full-opaque-white': 'rgba(255 255 255 1)'
     }
   },
   plugins: [],
